@@ -1,0 +1,154 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    
+}
+
+.container {
+    margin: 0;
+    width: 550px;
+    height: 719px;
+    border-color: aqua;
+    
+   
+}
+
+header {
+    width: 550px;
+    height: 190px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+h1 {
+    font-weight: 800px;
+    margin: 0;
+}
+ h2 {
+     font-weight: 200;
+     font-size: medium;
+     margin: 1em;
+     padding: 0;
+ }
+
+ .btn-section {
+     display: flex;
+     flex-direction: row;
+     justify-content:space-around;
+     padding-top: 2em;
+     align-items: center;
+    
+
+ }
+
+ label {
+     padding: 12px;
+     font-weight: 200;
+ }
+
+ #service-el, #amount-el, #mail-el {
+     width: 143px;
+     height: 33px;
+     border-radius: 5px;
+     border: solid 1px rgb(80, 80, 80)
+     
+ }
+
+ #add-btn, #generate-el {
+    width: 143px;
+    height: 37px;
+    border-radius: 5px;
+    border: solid 1px rgb(80, 80, 80);
+    margin-left: 1em;
+    background-color: #ffffff;
+    margin-right: auto;
+    
+ }
+
+ #add-btn:hover,  #generate-el:hover{
+    transform:scale(1.007,1.007);
+    transition: 0.1s;
+    cursor: pointer;
+    box-shadow: 6px 4px 4px rgba(164, 144, 168, 0.7);
+}
+
+
+#add-btn:active,  #generate-el:active {
+    position: relative;
+    top: 1.5px;
+}
+
+
+.counter{
+    padding-left: 12px;
+    font-weight: 200;
+    margin-top: 2em; 
+    
+    
+}
+ .service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ li {
+text-decoration: none;
+     list-style: none;
+ }
+ 
+
+ .listitems {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     
+ }
+
+ #ul-service {
+    padding: 0;
+ }
+
+ .total {
+  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+hr {
+    width: 80%;
+    margin: 2em;
+}
+ 
+.total-section {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    font-weight: 200;
+    margin-top: 2em; 
+}
+.generate-btn {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mail-el {
+    width: 250px;
+}
+#generate-el{
+    background-color: rgb(121, 121, 230) ;
+    color: white;
+}

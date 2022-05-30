@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechnung generieren</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Karla:wght@200;400;600;800&family=Montserrat:ital,wght@0,400;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+        <header> 
+            <h1>Rechnung generieren</h1>
+            <h2>Danke, dass Sie unseren Service nutzen!</h2>
+        </header>
+        <div class="btn-section">
+            <label for="service-el">Leistung</label> 
+            <input id="service-el" type="text">
+            <label for="amount-el">Kosten</label>
+            <input id="amount-el" type="number">
+            <button id="add-btn">+</button>
+        </div>
+
+        <div class="counter">
+            <div class="service-total">
+                <div class="service">
+                    <p>Service  </p>   
+                    <p>Kosten</p>
+                </div>
+                <div class="listitems">
+                        <ul id = "ul-service">
+
+                        </ul>
+                        <ul id = "ul-amount">
+
+                        </ul>
+                </div>
+                        
+
+                
+            </div>
+        </div>    
+            <div class="ul-el">
+
+            </div>
+        <hr>
+        <div class="total-section">
+            <p>Gesamtbetrag</p>
+            <p id="total-price"></p>
+        </div>
+        <div class="generate-btn">
+            <label for="mail-el">Mailadresse</label>
+            <input id="mail-el" type="email">
+            <button id="generate-el">Generiere Rechnung</button>
+        </div>
+    </div>  
+
+
+        <script src="script.js"></script>
+</body>
+</html>
